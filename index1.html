@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Parqueo</title>
+    <link rel="stylesheet" href="ingresa.component.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Registro de Parqueo</h1>
+        <form id="parqueo-form">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+            <div class="form-group">
+                <label for="marca">Marca:</label>
+                <input type="text" id="marca" name="marca" required>
+            </div>
+            <div class="form-group">
+                <label for="modelo">Modelo:</label>
+                <input type="text" id="modelo" name="modelo" required>
+            </div>
+            <div class="form-group">
+                <label for="color">Color:</label>
+                <input type="text" id="color" name="color" required>
+            </div>
+            <div class="form-group">
+                <label for="placa">Placa:</label>
+                <input type="text" id="placa" name="placa" required>
+            </div>
+            <div class="form-group">
+                <label for="hora">Hora de Entrada:</label>
+                <input type="time" id="hora" name="hora" required>
+            </div>
+            <div class="form-group">
+                <label for="lugar">Lugar de Estacionamiento:</label>
+                <input type="text" id="lugar" name="lugar" required>
+            </div>
+
+            <button type="submit">Registrar</button>
+
+            <button id="mostrar-lista">Mostrar Lista</button>
+            <ul id="lista-parqueo"></ul>
+
+            <a href="garaje.component.HTML"><p>ir</p></a>
+            
+        </form>
+        
+    </div>
+  
+
+    <script src="datos.component.js"></script>
+ 
+ 
+</body>
+</html>
